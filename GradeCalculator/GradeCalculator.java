@@ -7,7 +7,7 @@ public class GradeCalculator {
 
         System.out.println("--- Student Grade Calculator ---");
 
-        // Input: Get the number of subjects
+
         System.out.print("Enter the total number of subjects: ");
         int numSubjects = 0;
         // Input validation for the number of subjects

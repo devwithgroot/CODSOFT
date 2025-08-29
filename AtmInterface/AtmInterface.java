@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to represent the user's bank account
+
 class BankAccount {
     private double balance;
 
