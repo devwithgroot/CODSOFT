@@ -4,7 +4,6 @@ import java.util.Random;
 public class NumberGame {
 
     public static void main(String[] args) {
-        // Scanner for user input
         Scanner scanner = new Scanner(System.in);
         // Random object to generate random numbers
         Random random = new Random();
@@ -44,7 +43,7 @@ public class NumberGame {
 
                 // Compare the user's guess with the generated number
                 if (userGuess == numberToGuess) {
-                    System.out.println("🎉 Congratulations! You guessed the correct number!");
+                    System.out.println("Congratulations! You guessed the correct number!");
                     hasGuessedCorrectly = true;
                     // Award points based on remaining attempts
                     score += (attempts + 1); 
